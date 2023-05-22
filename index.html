@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toss</title>
+    <style>
+        .bar {
+            display: grid;
+            grid-template-columns: auto auto;
+            text-align: center;
+            margin-top: 20px;
+            margin-left: 350px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .menu {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            text-align: center;
+            margin-left: 30%;
+            gap: 25px;
+        }
+        .lang {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            text-align: center;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .lang_item {
+            padding-left: 10px;
+            padding-right: 10px;
+            
+
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 100px;
+
+        }
+
+        .menu_logo {
+            text-align: center;
+            margin-top: 15%;
+            font-size: 30px;
+        }
+
+        .play {
+            display: grid;
+            grid-template-columns: auto auto;
+            font-size: 20px;
+            text-align: center;
+           justify-content: center;
+           gap: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            color: white;
+            font-size: 19px;
+            font-weight: 600;
+            background-color: black;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            text-decoration-line: none;
+            border-radius:7px ;
+            opacity: 0.7;
+
+        }
+
+        body {
+
+            background-image: linear-gradient(
+            rgba(255, 255, 255) 25% ,
+            rgba(255, 255, 255, 0)
+            ) ,url(new_main.png);
+            background-position-x: center;
+            background-size: 127%;
+            background-repeat:no-repeat ;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="bar">
+        <div class="logo"><img src="fhrh.PNG" alt=""></div>
+        <div class="menu">
+            <div class="item">회사소개</div>
+            <div class="item">고객센터</div>
+            <div class="item">자주 묻는 질문</div>
+            <div class="item">토스인증서</div>
+            <div class="item">채용</div>
+        </div>
+        <div class="lang">
+            <div class="lang_item">KOR</div>
+            <div style="color:rgb(187, 180, 180);" class="lang_item">|</div>
+            <div style="color:rgb(187, 180, 180);" class="lang_item">ENG</div>
+        </div>
+    </div>
+    <div class="menu_logo"><h1>금융의 모든것 <br>토스에서 쉽고 간편하게</div></h1>
+
+    <div class="play">
+        <div class="app"><a class="button" target="_blank" href="https://itunes.apple.com/kr/app/%ED%86%A0%EC%8A%A4/id839333328?mt=8"><img height="24" width="24" src="https://static.toss.im/png-icons/timeline/applekorea.png" alt="">
+            App Store</a></div>
+        <div class="app"><a class="button" target="_blank" href="https://play.google.com/store/apps/details?id=viva.republica.toss"><img height="24" width="24" src="https://static.toss.im/png-icons/timeline/googleplay.png" alt="">Google Play</a></div>
+    </div>
+
+    
+</body>
+</html>
